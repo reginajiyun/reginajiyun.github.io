@@ -1,45 +1,54 @@
 body {
-    background-color: red;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  
-  h1 {
-    font-family: 'Pacifico', cursive;
-    color: white;
-    font-size: 400%;
-  }
-  
-  .circle-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    margin-top: 20px;
-  }
-  
-  .circle {
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5em;
-    color: white;
-    cursor: pointer;
-  }
-  
-  button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 1em;
-    background-color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
+  background-color: #ffe5e5;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-title {
+  font-family: 'Pacifico', cursive;
+  color: black;
+  font-size: 200%;
+}
+
+.paragraph-text {
+  font-family: 'Helvetica', sans-serif;
+  color: black;
+}
+
+.second-title {
+  font-family: 'Pacifico', cursive;
+  color: black;
+  font-size: 200%;
+}
+
+.place {
+  font-family: 'Helvetica', sans-serif;
+  color: black;
+}
+
+.line {
+  border-top: 1px solid black;
+  margin: 20px 0;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
