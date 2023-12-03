@@ -8,4 +8,16 @@ body {
     height: 100vh;
   }
 
-  
+  h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 300%;
+  }
+
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }

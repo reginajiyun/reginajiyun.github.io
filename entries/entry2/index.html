@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Forms Review</title>
+    <title>Getting Ready to Order a HOTPOT</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,8 +17,7 @@
 
 
       <hr>
-      <form action="submission.html" method="POST">
-				<h1>Create My Hot Pot!</h1>
+        <h1>Let's Create Your Own HOTPOT!</h1>
         <section class="protein">
           <label for="patty">What type of protein would you like?</label>
     			<input type="text" name="patty" id="patty">
@@ -88,7 +87,15 @@
           <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
         </section>
         <hr>
-      </form>
     </section>
+  <button id="nextButton">Next</button>
+  <script>
+    document.getElementById('nextButton').addEventListener('click', function() {
+      var nextPageURL = 'https://reginajiyun.github.io/entries/entry3/index.html';
+      window.location.href = nextPageURL;
+    });
+  </script>
+
+  <script src="script.js"></script>
   </body>
 </html>
