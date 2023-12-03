@@ -1,0 +1,25 @@
+
+body {
+    background-color: #a3c2ff;
+    text-align: center;
+}
+
+
+
+h1{
+    text-align: left;
+    color: #000000;
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 75%;
+    height: 75%;
+}
