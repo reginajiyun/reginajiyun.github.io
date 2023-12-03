@@ -62,3 +62,11 @@ body {
     text-align: center;
   }
   
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }

@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const imageUrls = [
+  const nextButton = document.getElementById('nextButton');
+  const imageUrls = [
       'image1.jpg',
       'image2.jpg',
       'image3.jpg',
@@ -11,4 +12,3 @@ document.addEventListener('DOMContentLoaded', function() {
       imageElement.style.backgroundImage = `url(${imageUrls[i]})`;
     }
   });
-  
