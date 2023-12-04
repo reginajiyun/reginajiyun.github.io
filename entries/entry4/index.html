@@ -1,30 +1,41 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Forms Review</title>
-  </head>
-  <body>
-   <section id="overlay">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Rancho&display=swap" rel="stylesheet">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>October 2nd</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 class="main-title">October 2nd</h1>
+  
+  <div class="section">
+    <div class="left-section">
+      <p class="subtitle">Where?</p>
+      <p id="whereText" class="highlight-text">The Dolar Shop Hot Pot Manhattan</p>
+    </div>
+    <div class="right-section">
+      <p class="subtitle">With Who?</p>
+      <p id="withWhoText" class="underline-text">With Evelyn Yoon</p>
+    </div>
+    <div class="left-section">
+      <p class="subtitle">What Did You Order?</p>
+      <ul class="order-list">
+        <li>Tomato Soup Broth</li>
+        <li>Soy sauce based Hotpot Sauce</li>
+        <li>Bok Choy</li>
+        <li>Cabbage</li>
+        <li>Enoki Mushroom</li>
+        <li>Fried Tofu</li>
+        <li>Fuju</li>
+        <li>Shrimp Pate</li>
+        <li>Beef</li>
+      </ul>
+    </div>
+  </div>
 
+  <button id="nextButton">Next</button>
 
-      <hr>
-      <form action="submission.html" method="POST">
-				<h1>October 2nd</h1>
-        <section class="description">
-          <label for="description">I went to "The Dollar Shop" to eat hot pot with Evelyn again.</label>
-        </section>
-        <hr>
-        <div class="container">
-          <div class="item1"><img src="imgs 복사본/100201.jpeg" alt="hotpot1"></div>
-          <div class="item2"><img src="imgs 복사본/100202.jpeg" alt="hotpot2"></div>
-          <div class="item3"><img src="imgs 복사본/100203.jpeg" alt="hotpot3"></div>
-        </div>
-      </form>
-    </section>
-  </body>
+  <script src="script.js"></script>
+</body>
 </html>
