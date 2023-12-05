@@ -1,5 +1,5 @@
 body {
-    background-color: #ff9999;
+    background-color: #ff8080;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -31,48 +31,31 @@ body {
     font-size: 200%;
   }
   
-  .highlight-text {
-    font-family: 'Helvetica', sans-serif;
-    color: #ff4400;
-    font-size: 100%;
-    position: relative;
-    display: inline-block;
+  .rounded-box {
+    border-radius: 15px;
+    border: 5px solid white;
+    padding: 10px;
+    margin-top: 10px;
   }
   
-  .highlight-text:hover::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 5px;
-    background-color: #ff4400;
-  }
-  
-  .underline-text {
-    font-family: 'Helvetica', sans-serif;
-    color: black;
-    font-size: 100%;
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  
-  .order-list {
-    list-style-type: none;
-    padding: 0;
+  .inner-text {
     font-family: 'Helvetica', sans-serif;
     color: black;
     font-size: 100%;
   }
   
-  .image1 {
-    width: 30%;
+  .change-size-text {
+    font-family: 'Helvetica', cursive;
+    color: black;
+    font-size: 200%;
+    transition: font-size 0.3s, color 0.3s;
   }
-
-  .image2 {
-    width: 30%;
+  
+  .change-size-text:hover {
+    font-size: 150%;
+    color: white;
   }
-
+  
   button {
     margin-top: 20px;
     padding: 10px 20px;

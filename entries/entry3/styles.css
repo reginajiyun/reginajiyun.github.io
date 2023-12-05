@@ -8,65 +8,60 @@ body {
     height: 100vh;
   }
   
-  .main-title {
+  h2 {
     font-family: 'Pacifico', cursive;
     color: black;
     font-size: 300%;
   }
   
-  .image-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    margin-top: 20px;
+  .container {
+    display: flex;
+    flex-wrap: wrap;
   }
   
-  .image1 {
+  .item {
     position: relative;
+    width: 50%;
+    font-family: 'Pacifico';
+    color: white;
+    font-size: 100%;
+  }
+  
+  .container > div {
+    flex: 50%;
+  }
+  
+  .image {
+    display: block;
     width: 100%;
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-    cursor: pointer;
+    height: auto;
   }
   
   .overlay {
     position: absolute;
     top: 0;
+    bottom: 0;
     left: 0;
-    width: 100%;
+    right: 0;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: .5s ease;
+    background-color: #008CBA;
   }
   
-  .overlay:hover {
+  .item:hover .overlay {
     opacity: 1;
   }
   
-  .overlay-text {
-    font-family: 'Pacifico', cursive;
-    color: black;
-    font-size: 100%;
-  }
-  
-  .overlay-subtext {
-    font-family: 'Helvetica', sans-serif;
-    color: #ffb2b2;
-    font-size: 50%;
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
-  }
-  
-  button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 1em;
-    background-color: white;
-    border: none;
-    cursor: pointer;
   }
